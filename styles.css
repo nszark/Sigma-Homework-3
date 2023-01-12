@@ -225,32 +225,78 @@ body {
 	gap:60px;
 }
 
-#destination__items__item1{
+.destination__items__item1{
+	position: relative;
+	width: 314px;
+	height: 457px;
+	background: url(images/Rectangle\ 14\ \(2\).jpg);
+	border-radius: 24px;
+	background-size: contain;
+}
+
+.destination__items__item2{
+	position: relative;
 	width: 314px;
 	height: 457px;
 	background: url(images/rectangle_14.png);
-	filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
 	border-radius: 24px;
 }
 
-#destination__items__item2{
+.destination__items__item3{
+	position: relative;
 	width: 314px;
 	height: 457px;
-	background: url(images/rectangle_14.png);
-	filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+	background: url(images/Rectangle\ 14\ \(1\).jpg);
 	border-radius: 24px;
 }
 
-#destination__items__item3{
-	width: 314px;
-	height: 457px;
-	background: url(images/rectangle_14.png);
+.destination__items__item1:hover{
 	filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
-	border-radius: 24px;
+}
+
+.destination__items__item2:hover{
+	filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
+.destination__items__item3:hover{
+	filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
+.destination__items__textContainer{
+	display: flex;
+	flex-direction: column;
+	gap:30px;
+	width: 315px;
+	height: 130px;
+	position: absolute;
+  bottom: 0;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 24px 24px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 124.5%;
+	color: #5E6282;
 }
 
 .destination__items__text{
+	margin-left: 30px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
 
+.destination__items__text__2{
+	margin-left: 30px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 124.5%;
+	color: #5E6282;
 }
 
 #booking{
